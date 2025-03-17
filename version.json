@@ -1,5 +1,178 @@
 {
-    "version": 0.2,
-    "notes": "Bug fixes and performance improvements",
-    "release_date": "2025-03-13"
+  "alpha1": {
+    "BASE": {
+      "latest": {
+        "version": "4.4.11",
+        "filename": "Alpha1/BASE/BASE_4.4.11.bin"
+      }
+    },
+    "MachineA": {
+      "latest": {
+        "version": "4.4.11",
+        "filename": "Alpha1/MACHINE_A/MachineA_4.4.11.bin"
+      },
+      "beta": {
+        "version": "0.4.11",
+        "filename": "Alpha1/MACHINE_A/MachineA_0.4.11.bin"
+      },
+      "dataTest": {
+        "version": "0.4.2",
+        "filename": "Alpha1/MACHINE_A/MachineA_0.4.2.bin"
+      }
+    },
+    "StackA": {
+      "latest": {
+        "version": "4.4.11",
+        "filename": "Alpha1/STACK_A/StackA_4.4.11.bin"
+      },
+      "beta": {
+        "version": "4.4.10",
+        "filename": "Alpha1/STACK_A/StackA_4.4.10.bin"
+      }
+    },
+    "GasSensorA": {
+      "latest": {
+        "version": "4.4.11",
+        "filename": "Alpha1/GASSENSOR_A/GasSensorA_4.4.11.bin"
+      },
+      "beta": {
+        "version": "4.4.4",
+        "filename": "Alpha1/GASSENSOR_A/GasSensorA_4.4.4.bin"
+      }
+    }
+  },
+  "alpha2": {
+    "BASE": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/BASE/BASE_4.4.13.bin"
+      }
+    },
+    "WasherA": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/WASHER_A/WasherA_4.4.13.bin"
+      },
+      "migrate": {
+        "version": "4.4.2",
+        "filename": "Alpha2/WASHER_A/WasherA_4.4.2.bin"
+      },
+      "beta": {     
+        "version": "0.4.12",
+        "filename": "Alpha2/WASHER_A/WasherA_0.4.12.bin"
+      }
+    },
+    "DryerA": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/DRYER_A/DryerA_4.4.13.bin"
+      },
+      "migrate": {
+        "version": "4.4.2",
+        "filename": "Alpha2/DRYER_A/DryerA_4.4.2.bin"
+      },
+      "beta": {
+        "version": "0.4.12",
+        "filename": "Alpha2/DRYER_A/DryerA_0.4.12.bin"
+      }
+    },
+    "StackWDA": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/STACKWD_A/StackWDA_4.4.13.bin"
+      },
+      "beta": {
+        "version": "0.4.14",
+        "filename": "Alpha2/STACKWD_A/StackWDA_0.4.14.bin"
+      }
+    },
+    "StackWWA": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/STACKWW_A/StackWWA_4.4.13.bin"
+      },
+      "beta": {
+        "version": "4.4.10",
+        "filename": "Alpha2/STACKWW_A/StackWWA_4.4.10.bin"
+      }
+    },
+    "StackDDA": {
+      "latest": {
+        "version": "4.4.13",
+        "filename": "Alpha2/STACKDD_A/StackDDA_4.4.13.bin"
+      },
+      "beta": {
+        "version": "4.4.10",
+        "filename": "Alpha2/STACKDD_A/StackDDA_4.4.10.bin"
+      }
+    }
+  },
+  "alpha3": {
+    "BASE": {
+      "latest": {
+        "version": "4.2.10",
+        "filename": "Alpha3/BASE/BASE_4.2.10.bin"
+      }
+    },
+    "VendingA": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/VENDING_A/VendingA_4.2.11.bin"
+      },
+      "beta": {
+        "version": "4.2.10",
+        "filename": "Alpha3/VENDING_A/VendingA_4.2.10.bin"
+      }
+    },
+    "BillAcceptorA": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/BILLACCEPTOR_A/BillAcceptorA_4.2.11.bin"
+      },
+      "beta": {
+        "version": "4.2.10",
+        "filename": "Alpha3/BILLACCEPTOR_A/BillAcceptorA_4.2.10.bin"
+      }
+    },
+    "BillAcceptorB": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/BILLACCEPTOR_B/BillAcceptorB_4.2.11.bin"
+      },
+      "beta": {
+        "version": "4.2.10",
+        "filename": "Alpha3/BILLACCEPTOR_B/BillAcceptorB_4.2.10.bin"
+      }
+    },
+    "BillAcceptorM": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/BILLACCEPTOR_M/BillAcceptorM_4.2.11.bin"
+      },
+      "beta": {
+        "version": "4.2.10",
+        "filename": "Alpha3/BILLACCEPTOR_M/BillAcceptorM_4.2.10.bin"
+      }
+    },
+    "BillAcceptorN": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/BILLACCEPTOR_N/BillAcceptorN_4.2.11.bin"
+      },
+      "beta": {
+        "version": "4.2.10",
+        "filename": "Alpha3/BILLACCEPTOR_N/BillAcceptorN_4.2.10.bin"
+      }
+    },
+    "ChemSensorA": {
+      "latest": {
+        "version": "4.2.11",
+        "filename": "Alpha3/CHEMSENSOR_A/ChemSensorA_4.2.11.bin"
+      },
+      "beta": {
+        "version": "0.2.11",
+        "filename": "Alpha3/CHEMSENSOR_A/ChemSensorA_0.2.11.bin"
+      }
+    }
+  }
 }
